@@ -21,8 +21,7 @@ To use the nearley *parser*, you need to install nearley **locally**.
 $ npm install --save nearley
 ```
 
-To use the nearley *compiler*, you need to *additionally* install nearley
-**globally**.
+To use the nearley *compiler*, you can install nearley **globally**.
 
 ```bash
 $ npm install -g nearley
@@ -39,6 +38,9 @@ This actually adds several new commands to your `$PATH`:
   is mainly helpful for creating documentation, as (for example) on json.org.
 
 These are documented on the [tooling page](tooling).
+
+You can also run these commands using `npx` (for example, `npx nearleyc`)
+without installing nearley globally (nearley must still be installed locally).
 
 > Note: If you're not ready to install nearley yet, you can follow along in
 > your browser using the [nearley
